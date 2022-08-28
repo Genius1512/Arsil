@@ -3,7 +3,7 @@
 #########################
 # Install dependencies ##
 #########################
-sudo pacman -S git base-devel wget --noconfirm
+sudo pacman -S git base-devel wget --noconfirm --needed
 
 # Install yay
 git clone https://aur.archlinux.org/yay.git
@@ -15,12 +15,12 @@ rm -rf yay
 ##############
 # Make files #
 ##############
-mkdir $HOME/.local/
-mkdir $HOME/.local/bin/
-mkdir $HOME/.local/lib/
-mkdir $HOME/.local/share/
-mkdir $HOME/.local/share/applications/
-mkdir $HOME/.local/share/icons/
+mkdir -p $HOME/.local/
+mkdir -p $HOME/.local/bin/
+mkdir -p $HOME/.local/lib/
+mkdir -p $HOME/.local/share/
+mkdir -p $HOME/.local/share/applications/
+mkdir -p $HOME/.local/share/icons/
 
 ################
 # Call scripts #
