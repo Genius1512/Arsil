@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	kitty
 
 # program launcher
-super + @space
-	dmenu_run
+super + d
+    rofi -modi drun,run -show drun	
 
 # make sxhkd reload its configuration files:
 super + Escape
