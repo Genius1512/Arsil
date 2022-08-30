@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ! [ -x "$(command -v poetry)" ];
+if [ -x "$(command -v poetry)" ];
 then
     exit
 fi

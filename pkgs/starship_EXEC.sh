@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ! [ -x "$(command -v starship)" ];
+if [ -x "$(command -v starship)" ];
 then
     exit
 fi
