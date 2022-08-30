@@ -2,8 +2,6 @@
 
 set -e
 
-sudo pacman -Syu
-
 #########################
 # Install dependencies ##
 #########################
