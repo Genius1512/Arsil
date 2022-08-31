@@ -5,7 +5,5 @@ then
     exit
 fi
 
-wget https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py
-python get-poetry.py -y
-rm get-poetry.py
+curl -sSL https://install.python-poetry.org | python3 - -y
 
