@@ -1,5 +1,0 @@
-eval "$(starship init bash)"
-
-EDITOR="nvim"
-
-export PATH="$PATH:$HOME/.local/bin"
