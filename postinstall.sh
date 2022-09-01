@@ -3,3 +3,6 @@
 # Setup nitrogen
 sed -i "s/{user}/$USER/" $HOME/.config/nitrogen/bg-saved.cfg
 sed -i "s/{user}/$USER/" $HOME/.config/nitrogen/nitrogen.cfg
+
+# Enable ly
+sudo systemctl enable ly.service
